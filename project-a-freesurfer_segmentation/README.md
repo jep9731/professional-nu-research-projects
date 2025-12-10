@@ -82,11 +82,11 @@ Users must supply:
 **1. Segmentation output files**
 
 Must include files matching patterns such as:
-    *-T1.v21.txt
-    *_T2spcnorm.v21.txt
-    *_T2highreshipp.v21.txt
-    *-T1*_T2spcnorm.v21.txt
-    *-T1*_T2highreshipp.v21.txt
+    * -T1.v21.txt
+    * _T2spcnorm.v21.txt
+    * _T2highreshipp.v21.txt
+    * -T1*_T2spcnorm.v21.txt
+    * -T1*_T2highreshipp.v21.txt
 
 **2. aseg.stats files**
 
