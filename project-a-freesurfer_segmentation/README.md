@@ -82,11 +82,12 @@ Users must supply:
 **1. Segmentation output files**
 
 Must include files matching patterns such as:
-    * -T1.v21.txt
-    * _T2spcnorm.v21.txt
-    * _T2highreshipp.v21.txt
-    * -T1*_T2spcnorm.v21.txt
-    * -T1*_T2highreshipp.v21.txt
+
+* -T1.v21.txt
+* _T2spcnorm.v21.txt
+* _T2highreshipp.v21.txt
+* -T1*_T2spcnorm.v21.txt
+* * -T1*_T2highreshipp.v21.txt
 
 **2. aseg.stats files**
 
@@ -137,25 +138,23 @@ source("SA_amyg_hippo_seg.R")
 
 The script will:
 
-* ✓ Load all FreeSurfer segmentation files
-* ✓ Extract subject ID, hemisphere, subregion, method
-* ✓ Merge all segmentation methods into a unified dataset
-* ✓ Add eTIV and normalize volumes
-* ✓ Produce violin and boxplots for:
+* Load all FreeSurfer segmentation files
+* Extract subject ID, hemisphere, subregion, method
+* Merge all segmentation methods into a unified dataset
+* Add eTIV and normalize volumes
+* Produce violin and boxplots for:
     * Hippocampal subregions
     * Amygdala subregions
     * Comparisons across segmentation methods
     * Subtype-based comparisons
-
-* ✓ Perform statistical analyses:
+* Perform statistical analyses:
     * Shapiro–Wilk normality tests
     * Levene’s test
     * Kruskal–Wallis
     * Pairwise Wilcoxon signed-rank (with Bonferroni correction)
     * Linear modeling with interaction terms
     * Estimated marginal means (EMMs)
-
-* ✓ Export outputs:
+* Export outputs:
     * Outputs might include:
         * combined_data_final.csv
         * combined_amygdala_data_final.csv
