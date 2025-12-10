@@ -56,7 +56,8 @@ Users must supply their own FreeSurfer-derived `.v21.txt` and `aseg.stats`.
 
 Install everything with:
 
-```install.packages(c(
+```
+install.packages(c(
   "tidyverse", "readr", "writexl", "ggplot2", "stringr", "car",
   "emmeans", "FSA", "effsize", "knitr", "kableExtra", "gt",
   "openxlsx", "sjPlot", "performance", "effects", "ggsignif",
