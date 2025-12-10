@@ -51,7 +51,8 @@ Users must supply their own FreeSurfer-derived `.v21.txt` and `aseg.stats`.
       performance
       effects
       ggsignif
-      rstatix```
+      rstatix
+```
 
 Install everything with:
 
@@ -60,14 +61,16 @@ Install everything with:
   "emmeans", "FSA", "effsize", "knitr", "kableExtra", "gt",
   "openxlsx", "sjPlot", "performance", "effects", "ggsignif",
   "rstatix"
-))```
+))
+```
 
 FreeSurfer R tools:
 
 ```
 # Install if necessary
 # install.packages("freesurfer")
-library(freesurfer)```
+library(freesurfer)
+```
 
 ---
 
