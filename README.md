@@ -25,7 +25,6 @@ Each project contains:
 Depending on the project, the projects may incorporate:
 
 * **FSL**, **FreeSurfer**, **AFNI**
-* **Python** (NumPy, SciPy, Matplotlib, Pandas, Jupyter)
 * **R**
 * MRI structural and functional processing workflows
 * Advanced data modeling techniques (e.g., **K-means clustering**)
