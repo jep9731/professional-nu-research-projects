@@ -100,23 +100,11 @@ Used for extracting Estimated Total Intracranial Volume (eTIV).
 Your directory should contain segmentation and stats files organized by subject folders.
 Example:
 ```
-data_final/
-    SA001/
-        lh.hippocampus-T1.v21.txt
-        rh.amyg-T1.v21.txt
-        lh.hippocampus_T2highreshipp.v21.txt
-        ...
-    SA002/
-        ...
-
-sa_hippseg/
-    SA001/stats/aseg.stats
-    SA002/stats/aseg.stats
-    ...
-
+data/seg_final/
+data/aseg/
 data/
-    demographics.csv
-    subtype_data.csv
+outputs/
+plots/
 ```
 
 You may use different paths, just update them in the script.
@@ -127,8 +115,8 @@ You may use different paths, just update them in the script.
 
 **1.** Clone the repository:
 ```
-git clone https://github.com/<yourusername>/<yourrepo>.git
-cd <yourrepo>
+git clone https://github.com/jep9731/professional-nu-research-projects.git
+cd professional-nu-research-projects/project-a-freesurfer_segmentation
 ```
 
 **2.** Open R and run:
