@@ -9,7 +9,7 @@ This repository hosts four independent research initiatives, each examining a di
 | Project | Title | Description |
 |:-------:|:------|:------------|
 | 1 | Project A: Comparing Hippocampal Freesurfer Segmentation Methodologies | Compares hippocampus segmentation methodologies in Freesurfer. |
-| 2 | Project B: Clustering SuperAging Neuropsychological Testing (working title) | Placeholder for upcoming research project — topic and direction still in development. |
+| 2 | Project B: Repeated Measure Latent Class Analysis on SuperAging Trajectories (working title) | Placeholder for upcoming research project — topic and direction still in development. |
 
 Each project contains:
 
@@ -27,7 +27,7 @@ Depending on the project, the projects may incorporate:
 * **FSL**, **FreeSurfer**, **AFNI**
 * **R**
 * MRI structural and functional processing workflows
-* Advanced data modeling techniques (e.g., **K-means clustering**)
+* Advanced data modeling techniques (e.g., **LCA**)
 
 Consult the project folders for exact dependencies and setup instructions.
 
@@ -69,7 +69,7 @@ Each project’s README includes:
     * T1 + T2H
 * Outputs: Volumetric comparisons, structural overlays, reliability metrics
 
-**🧠 Project B — Clustering SuperAging Neuropsychological Testing** 
+**🧠 Project B — Identifying Distinct Cognitive Trajectories in SuperAgers** 
 
 Future expansion — additional neuroimaging research planned.
 
