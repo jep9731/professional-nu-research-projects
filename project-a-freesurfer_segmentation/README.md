@@ -87,7 +87,7 @@ Must include files matching patterns such as:
 * _T2spcnorm.v21.txt
 * _T2highreshipp.v21.txt
 * -T1*_T2spcnorm.v21.txt
-* * -T1*_T2highreshipp.v21.txt
+* -T1*_T2highreshipp.v21.txt
 
 **2. aseg.stats files**
 
