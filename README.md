@@ -38,7 +38,7 @@ Consult the project folders for exact dependencies and setup instructions.
 Clone the repository:
 
 ```
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/jep9731/your-repo-name.git
 cd your-repo-name
 ```
 
