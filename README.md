@@ -38,8 +38,8 @@ Consult the project folders for exact dependencies and setup instructions.
 Clone the repository:
 
 ```
-git clone https://github.com/jep9731/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/jep9731/professional-nu-research-projects.git
+cd professional-nu-research-projects
 ```
 
 Then navigate into any project of interest:
