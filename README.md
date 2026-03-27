@@ -1,16 +1,16 @@
 # 🔬 Research Projects Collection
 
-This repository hosts four independent research initiatives, each examining a distinct topic using modern analytical and computational methods. All projects are fully documented and structured for easy exploration and reproducibility.
+This repository hosts two independent research initiatives, each examining a distinct topic using modern analytical and computational methods. All projects are fully documented and structured for easy exploration and reproducibility.
 
 ---
 
 ## 📁 Projects Overview
 
-| Project | Title | Description |
-|:-------:|:------|:------------|
-| 1 | Project A: Comparing Hippocampal Freesurfer Segmentation Methodologies | Compares hippocampus segmentation methodologies in Freesurfer. |
-| 2 | Project B: Repeated Measure Latent Class Analysis on SuperAging Trajectories (working title) | Placeholder for upcoming research project — topic and direction still in development. |
-
+| Project | Title |
+|:-------:|:------|
+| A | Comparing Hippocampal Freesurfer Segmentation Methodologies | 
+| B | Distinct Cognitive Trajectories in SuperAgers Identified by Repeated-Measures Latent Class Analysis |
+ 
 Each project contains:
 
 * Source code and scripts.
@@ -27,7 +27,7 @@ Depending on the project, the projects may incorporate:
 * **FSL**, **FreeSurfer**, **AFNI**
 * **R**
 * MRI structural and functional processing workflows
-* Advanced data modeling techniques (e.g., **LCA**)
+* Advanced data modeling techniques (e.g., **RMLCA**, **LCA**)
 
 Consult the project folders for exact dependencies and setup instructions.
 
@@ -69,9 +69,14 @@ Each project’s README includes:
     * T1 + T2H
 * Outputs: Volumetric comparisons, structural overlays, reliability metrics
 
-**🧠 Project B — Identifying Distinct Cognitive Trajectories in SuperAgers** 
-
-Future expansion — additional neuroimaging research planned.
+**🧠 Project B — Distinct Cognitive Trajectories in SuperAgers (RMLCA)**
+ 
+- **Goal:** Identify distinct longitudinal memory trajectory subtypes among SuperAgers and same-age controls using Repeated-Measures Latent Class Analysis (RMLCA)
+- **Sample:** 262 participants from the Northwestern Alzheimer's Disease Research Center Clinical Core with a minimum of 3 annual visits (up to 21 years of follow-up)
+- **Key Finding:** A 2-class solution best fit the data — a **Stable class** (51.1%, slope ≈ +0.004 SD/year) and a **Declining class** (48.9%, slope = −0.193 SD/year). Older baseline age predicted declining-class membership (β = −0.145, p = .032).
+- **Tools:** R, lcmm, lme4, tidyverse, ggplot2, REDCap API
+ 
+> ⚠️ *Data is not publicly shareable due to participant privacy protections. The analysis script is fully documented for reproducibility given appropriate REDCap access.*
 
 ---
 
@@ -80,3 +85,9 @@ Future expansion — additional neuroimaging research planned.
 * All analysis notebooks and scripts provided
 * Where permitted, anonymized data or links to publicly accessible datasets
 * Figures, statistical tables, and exportable results included
+
+---
+
+## 📬 Contact
+ 
+Questions or inquiries? Reach out to [Joshua Pasaye](https://github.com/jep9731/) or connect on [LinkedIn](https://www.linkedin.com/in/joshua-pasaye/).
