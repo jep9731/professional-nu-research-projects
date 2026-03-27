@@ -46,6 +46,8 @@ Then navigate into any project of interest:
 
 ```
 cd project-a-freesurfer_methods
+# or
+cd project-b-superaging_lca
 ```
 
 Each project’s README includes:
